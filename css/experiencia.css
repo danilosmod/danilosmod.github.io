@@ -1,0 +1,98 @@
+
+  .experiencia {
+      max-width: 1200px;
+      padding: 40px 20px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 100px;
+  }
+
+.experiencia .subtitulo {
+   color: var(--cor-destaque-1);
+   opacity: 10%;
+}
+
+.experiencia-texto {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    margin-bottom: 60px;
+    max-width: 40ch;
+    color: #525252;
+}
+
+.experiencia-texto strong {
+    color: var(--cor-destaque-1);
+}
+
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 10px 20px;
+    background: #2e2e2e;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+    border-left: 4px solid #2e2e2e;
+    
+}
+
+.empresa a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.empresa:hover{
+    border-left: 4px solid var(--cor-destaque-1);
+    transition: all 0.4s ease-in-out;
+}
+
+.empresa:hover li {
+    color: var(--cor-destaque-1);
+    transition: all 0.4s ease-in-out;
+}
+
+.empresa-titulo {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    font-weight: bold;
+    color: var(--cor-destaque-1);
+}
+
+.empresa-texto {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #5f5f5f;
+}
+
+.empresa-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: start;
+}
+
+.empresa-habilidades li {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    border-radius: 4px;
+    background: #5f5f5f;
+    padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+    .experiencia {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .experiencia .subtitulo {
+        color: var(--cor-destaque-1);
+    }
+
+    .experiencia-texto {
+        font-size: 1.125rem;
+    }
+}
+
