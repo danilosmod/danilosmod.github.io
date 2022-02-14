@@ -137,8 +137,7 @@
     }
 
     .formacao .subtitulo{
-        opacity: 100%;
-        color:#f5f5f5;
+        color:var(--cor-destaque-1);
         grid-column-start: 1;
         grid-row-start: 1;
     }
